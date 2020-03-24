@@ -18,6 +18,8 @@
   color: black;
 }
 
+
+
 .content {
   padding: 16px;
 }
@@ -26,7 +28,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
+z-index: 100;
+
 }
 
 .sticky + .content {
@@ -76,8 +79,64 @@ h1{
 
 footer {
  position: fixed;
+ width: 99.15%; 
  bottom: 0;
  color: white;
- width: 100%;
- background:black;
+
+ background:gray;
+}
+
+
+
+.ah1{
+
+text-align: center;
+font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 50px;  
+  font-style: bold;
+    opacity: 0.8; 
+
+}
+.image {
+  margin: auto;
+  width: 10.33%;
+  padding: 5px;
+  border-radius: 50%;
+
+ 
+}
+.image img{
+  
+  width: 10.33%;
+  padding: 5px;
+  border-radius: 50%;
+
+ 
+}
+.about {
+  margin: auto;
+  width: 40.33%;
+  padding-top: 50px;
+  line-height: 2;
+  border-style: none none outset none;
+  opacity: 0.5; 
+ 
+}
+.info{
+  
+  padding-bottom: 5px;
+  padding-right: 10px;
+
+ bottom: 15;
+ color: white;
+ width: auto;
+ background:gray;
+}
+.info h2{
+text-align-last: center;
+text-decoration: underline;
+}
+.info h3{
+  text-align-last: center;
 }
