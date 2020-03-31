@@ -1,55 +1,32 @@
 <!DOCTYPE html>
-<html lang=“eng”>
+<html>
 <head>
-	<!--
-		Lab One
-		Aug 29th Basic HTML
-		Name: Tek Bhattarai
-	-->
-	<mega charset ="utf-8">
-		<link rel="stylesheet" type="text/css" href="style1.css">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Monoton&display=swap" rel="stylesheet">
-<title>Tek Bhattarai</title>
+  <title>Oswego Cinema 7 - Home</title>
+  <mega charset ="utf-8">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
- 
-
   <nav id="navbar">
-   <a class="active" href="test.html">Home</a>
-  <a href="picture.html">Picture</a>
-  <a href="artivive.html">Artivive</a>
-  <a href="about.html">About</a>
+      <a class="active" href="index.html">Home</a>
+      <a href="picture.html">Picture</a>
+      <a href="artivive.html">Artivive</a>
+      <a href="about.html">About</a>
+  </nav>
 
+   <div class= "image"> <img src="1.png" style="width:100%"></div>
+   <div class="about">
+  <p>
+      The Oswego 7 Cinemas operates today as a 7 screen cinema with comfortable, red, automatically reclining seats that give it's antique decor a modern upgrade. This building was not always a Cinema. The Oswego 7 Cinemas was originally a theater for live shows such as musicals, opera, and plays. You can even see the stage in the main theater. We would like to show the glory of this old theater in an interactive way. Check out our Artivive for an interactive tour of the historic Oswego 7 Cinemas!!
+</p></div>
+  <div class="about1"><button><a href="https://www.fandango.com/oswego-cinema-aajnz/theater-page?wssaffid=cj_6728170&cjid=cj_10507293_6728170_&cjevent=13404f6d736711ea803401010a240611&rfilter=cjid%2Ccjevent&a=cj_6728170" target="_blank">Buy Ticket</a></button>
+  <button><a href="http://oswego.zurichcinemas.com/" target="_blank">Cinema Website</a></button><br><br>
+<a href="https://www.facebook.com/OswegoCinema7/" target="_blank" class="fa fa-facebook"></a>
+<a href="https://www.instagram.com/oswegocinema7/" target="_blank" class="fa fa-instagram"></a>
+</div>
 
-</nav>
- <video id="myVideo" autoplay muted loop >
-  <source src="movie.mp4" type="video/mp4">
-  
-</video>
+  <footer>&copy; Copyright 2020 Oswego7</footer>
 
-<div> <p><h1>Oswego 7 Movie Theater</h1></p></div>
-
-<footer>&copy; Copyright 2020 Oswego7</footer>
-
-  <script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 </body>
-	
-
-
 </html>
-
-</mega>
