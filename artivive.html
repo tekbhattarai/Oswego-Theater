@@ -1,29 +1,55 @@
-﻿<!DOCTYPE html>
-<html lang=“en”>
-
+<!DOCTYPE html>
+<html lang=“eng”>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" type="text/css" href="./styles/style1.css">
-  <link href="https://fonts.googleapis.com/css?family=Anton|Monoton&display=swap" rel="stylesheet">
-  <script src="./scripts/navbar.js"></script>
-  <title>Oswego Cinema - Artvive</title>
+
+  <mega charset ="utf-8">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<title>Tek Bhattarai</title>
 </head>
+<body  >
 
-<body>
+ 
+
   <nav id="navbar">
-    <a class="active" href="test.html">Home</a>
-    <a href="picture.html">Picture</a>
-    <a href="artivive.html">Artivive</a>
-    <a href="about.html">About</a>
-  </nav>
+ <a class="active" href="test.html">Home</a>
+  <a href="picture.html">Picture</a>
+  <a href="artivive.html">Artivive</a>
+  <a href="about.html">About</a>
 
-  <video id="myVideo" autoplay muted loop>
-    <source src="./assets/movie.mp4" type="video/mp4">
-  </video>
+ 
 
-  <h1>Artivive &nbsp; will &nbsp; go &nbsp; in &nbsp; this &nbsp;place</h1>
-  <footer>&copy; Copyright 2020 Oswego7</footer>
+
+
+</nav>
+
+
+   <center><h2>Please Scan The Image Using Artivive App</h2></center>
+   <img src="fb.jpg" class="pic">
+
+
+
+
+<footer>&copy; Copyright 2020 Oswego7</footer>
+
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
+  
+
 
 </html>
+
+</mega>
