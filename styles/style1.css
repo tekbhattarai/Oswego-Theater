@@ -44,11 +44,22 @@ html{
 .sticky + .content {
   padding-top: 60px;
 }
+.b1 {
 
-button {
-  background-color: black; /* Green */
+  background-color:#86B817;
   border-radius: 20px;
-  color: white;
+  padding: 20px;
+  width: 48%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.b2 {
+  background-color:#F5AF02;
+  border-radius: 20px;
   padding: 20px;
   width: 48%;
   text-align: center;
@@ -60,7 +71,7 @@ button {
 }
 button a{
  text-decoration: none;
- color: white;
+ color: black;
 }
 h1{
   font-family: 'Monoton', cursive;
@@ -139,7 +150,7 @@ footer {
 }
 
 .ah1{
-  padding-top: 15px;
+
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: black;
@@ -150,13 +161,13 @@ footer {
 }
 .image {
   margin: auto;
-  width: 10.33%;
+  width: 20.33%;
   padding: 5px;
   border-radius: 50%;
 }
 .image img{
   
-  width: 10.33%;
+  width: 20.33%;
   padding: 5px;
   border-radius: 50%;
 }
@@ -165,7 +176,7 @@ footer {
   margin: auto;
   max-width: 40rem;
   padding-top: 50px;
-  padding-bottom:25px;
+ 
   line-height: 2;
   border-style: none none outset none;
   color:#333;
@@ -176,7 +187,6 @@ footer {
   max-width: 40rem;
   padding-top: 50px;
   padding-bottom:25px;
-  line-height: 2;
   border-style: none;
   color:#333;
 }
@@ -220,6 +230,13 @@ footer {
   background: #F56040;
   color: white;
   width: 48%;
+
+}
+h4{
+padding-left: 237px;
+font-family: 'Dancing Script', cursive;
+font-size: 20px;
+
 }
 
 
