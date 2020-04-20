@@ -1,55 +1,36 @@
 ﻿<!DOCTYPE html>
 <html lang=“eng”>
+
 <head>
 
-  <mega charset ="utf-8">
-    <link rel="stylesheet" type="text/css" href="style1.css">
-   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-<title>Tek Bhattarai</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles/style1.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <script src="scripts/p5.min.js"></script>
+  <script src="scripts/p5.dom.min.js"></script>
+  <script src="scripts/wallpaper.js"></script>
+  <title>Artvive</title>
 </head>
-<body  >
 
- 
-
+<body>
   <nav id="navbar">
- <a class="active" href="test.html">Home</a>
-  <a href="picture.html">Picture</a>
-  <a href="artivive.html">Artivive</a>
-  <a href="about.html">About</a>
+    <a class="active" href="test.html">Home</a>
+    <a href="picture.html">Picture</a>
+    <a href="artivive.html">Artivive</a>
+    <a href="about.html">About</a>
+  </nav>
 
- 
+  <section>
+    <div class="center">
+      <h2>Please Scan The Image Using Artivive App</h2>
+    </div>
 
+    <img src="assets/fb.jpg" class="pic">
 
+  </section>
 
-</nav>
+  <footer>&copy; Copyright 2020 Oswego7</footer>
 
-
-   <center><h2>Please Scan The Image Using Artivive App</h2></center>
-   <img src="fb.jpg" class="pic">
-
-
-
-
-<footer>&copy; Copyright 2020 Oswego7</footer>
-
-  <script>
-window.onscroll = function() {myFunction()};
-
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
-</script>
 </body>
-  
-
-
 </html>
-
-</mega>
